@@ -1,0 +1,41 @@
+{
+  "Event with Jets, Hits, Calorimeter Clusters, Tracks and Muons": {
+    "event number": 0,
+    "run number": 0,
+    "Hits": {
+      "Some Hits": 
+        [
+          [0,800,0], [10,800,0], [0,820,0], [10,830,0],[0,840,0], [10,840,0], [0,850,0], [10,850,0]
+        ]
+
+    },
+    "Tracks": {
+      "CombinedMuonTrackParticles": [
+        {
+          "chi2": 1,
+          "dof": 100,
+          "dparams": [
+            0,
+            0,
+            1.5,
+            0.85,
+            1e-9
+          ],
+          "color": "0x0000ff",
+          "pos": [
+            [
+              -21.8387,
+              -16.2481,
+              68.9534
+            ],
+            [
+              -6546.14,
+              -4908.37,
+              26050
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

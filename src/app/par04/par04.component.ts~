@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-par04',
+  templateUrl: './par04.component.html',
+  styleUrls: ['./par04.component.scss']
+})
+export class Par04Component implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
