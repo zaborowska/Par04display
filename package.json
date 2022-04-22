@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "build:prod": "ng build --configuration production",
+    "build:ui-components": "ng build phoenix-ui-components --configuration production",
+    "test": "ng test",
+    "deploy:web": "yarn build:prod --output-path ./docs --base-href \"./\" && cp ./docs/index.html ./docs/404.html",
+    "deploy:web:single": "ng build --configuration singleEvent --output-path ./docs --base-href \"./\" && cp ./docs/index.html ./docs/404.html"
   },
   "private": true,
   "dependencies": {
